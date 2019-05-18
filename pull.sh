@@ -17,28 +17,29 @@ cd ${SCRATCH}
 export WATCHMEENV_HOSTNAME=$(hostname)
 export WATCHMEENV_NPROC=$(nproc)
 
+# Run manually on the head node
 for iter in 1 2 3 4 5; do
     for name in ubuntu busybox centos alpine nginx; do
-    echo "Running $name iteration $iter..."
-    watchme monitor singularity-pull singularity pull --force docker://$name --name $name-$iter --seconds 1
+        echo "Running $name iteration $iter..."
+        output=${outdir}/$name-iter-${iter}.json
+        watchme monitor singularity-pull singularity pull --force docker://$name --name $name-$iter --seconds 1
     done
 done
 
 # Next, here is an example of saving to flat files.
 outdir=/home/users/vsochat/.watchme/singularity-pull/data
 mkdir -p ${outdir}
-mkdir -p ${outdir}/tensorflow
 
 # Next, we can run this on nodes with different memory. Since git doesn't
 # do well with running in parallel, we will just save these files to the host,
 # named based on the run.
 
 for iter in 1 2 3 4 5; do
-    for name in ubuntu busybox centos alpine nginx "tensorflow/tensowflow"; do
+    for name in ubuntu busybox centos alpine nginx; do
         for mem in 4 6 8 12 16 18 24 32 64 128; do
             output="${outdir}/${name}-iter${iter}-${mem}gb.json"
             echo "sbatch --mem=${mem}GB pull-job.sh ${mem} ${iter} ${name} ${output}"            
-            sbatch --mem=${mem}GB pull-job.sh "${mem}" "${iter}" "${name}" ${output}
+            sbatch  --partition owners --mem=${mem}GB pull-job.sh "${mem}" "${iter}" "${name}" ${output}
         done
     done
 done

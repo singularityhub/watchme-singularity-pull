@@ -57,6 +57,18 @@ This was the script [pull.sh](pull.sh) and it looked like this:
 ```bash
 for iter in 1 2 3 4 5; do
     for name in ubuntu busybox centos alpine nginx; do
+        echo "Running $name iteration $iter..."
+        output=${outdir}/$name-iter-${iter}.json
+        watchme monitor singularity pull --force docker://$name --seconds 1 > ${output}
+    done
+done
+```
+
+If I wanted to use watchme as a temporal database, I could have done this:
+
+```bash
+for iter in 1 2 3 4 5; do
+    for name in ubuntu busybox centos alpine nginx; do
     echo "Running $name iteration $iter..."
     watchme monitor singularity-pull singularity pull --force docker://$name --name $name-$iter --seconds 1
     done
