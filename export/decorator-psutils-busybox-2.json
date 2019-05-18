@@ -6,6 +6,416 @@
         "2019-05-18 08:19:16 -0700"
     ],
     "content": [
-        "[\n    {\n        \"num_ctx_switches\": {\n            \"voluntary\": 100,\n            \"involuntary\": 1\n        },\n        \"cpu_percent\": 0.0,\n        \"connections\": [\n            [\n                5,\n                2,\n                1,\n                [\n                    \"171.66.97.103\",\n                    53808\n                ],\n                [\n                    \"34.201.196.144\",\n                    443\n                ],\n                \"SYN_SENT\"\n            ]\n        ],\n        \"cwd\": \"/scratch/users/vsochat\",\n        \"pid\": 8823,\n        \"terminal\": \"/dev/pts/24\",\n        \"memory_full_info\": {\n            \"rss\": 12009472,\n            \"vms\": 498589696,\n            \"shared\": 6705152,\n            \"text\": 20971520,\n            \"lib\": 0,\n            \"data\": 465330176,\n            \"dirty\": 0,\n            \"uss\": 11980800,\n            \"pss\": 11988992,\n            \"swap\": 0\n        },\n        \"ppid\": 8820,\n        \"gids\": {\n            \"real\": 32264,\n            \"effetive\": 32264,\n            \"saved\": 32264\n        },\n        \"cpu_affinity\": [\n            0,\n            1,\n            2,\n            3,\n            4,\n            5,\n            6,\n            7,\n            8,\n            9,\n            10,\n            11,\n            12,\n            13,\n            14,\n            15,\n            16,\n            17,\n            18,\n            19,\n            20,\n            21,\n            22,\n            23,\n            24,\n            25,\n            26,\n            27,\n            28,\n            29,\n            30,\n            31,\n            32,\n            33,\n            34,\n            35,\n            36,\n            37,\n            38,\n            39,\n            40,\n            41,\n            42,\n            43,\n            44,\n            45,\n            46,\n            47\n        ],\n        \"exe\": \"/usr/bin/singularity\",\n        \"memory_percent\": 0.012065269652192677,\n        \"io_counters\": {\n            \"read_count\": 24,\n            \"write_count\": 1,\n            \"read_bytes\": 0,\n            \"write_bytes\": 0,\n            \"read_chars\": 20128,\n            \"write_chars\": 36\n        },\n        \"nice\": 0,\n        \"ionice\": {\n            \"ioclass\": \"IOPRIO_CLASS_NONE\",\n            \"value\": 4\n        },\n        \"num_fds\": 6,\n        \"cpu_times\": {\n            \"user\": 0.0,\n            \"system\": 0.01,\n            \"children_user\": 0.0,\n            \"children_system\": 0.0\n        },\n        \"name\": \"singularity\",\n        \"status\": \"sleeping\",\n        \"uids\": {\n            \"real\": 9182,\n            \"effetive\": 9182,\n            \"saved\": 9182\n        },\n        \"cmdline\": [\n            \"singularity\",\n            \"pull\",\n            \"--force\",\n            \"docker://busybox\"\n        ],\n        \"create_time\": 1558192752.86,\n        \"num_threads\": 12,\n        \"username\": \"vsochat\",\n        \"open_files\": 0,\n        \"cpu_num\": 16,\n        \"NPROC\": \"48\",\n        \"HOSTNAME\": \"sh-ln03.stanford.edu\",\n        \"SECONDS\": \"1\"\n    },\n    {\n        \"num_ctx_switches\": {\n            \"voluntary\": 100,\n            \"involuntary\": 1\n        },\n        \"cpu_percent\": 0.0,\n        \"connections\": [\n            [\n                5,\n                2,\n                1,\n                [\n                    \"171.66.97.103\",\n                    53814\n                ],\n                [\n                    \"34.201.196.144\",\n                    443\n                ],\n                \"ESTABLISHED\"\n            ]\n        ],\n        \"cwd\": \"/scratch/users/vsochat\",\n        \"pid\": 8823,\n        \"terminal\": \"/dev/pts/24\",\n        \"memory_full_info\": {\n            \"rss\": 14082048,\n            \"vms\": 1129549824,\n            \"shared\": 7385088,\n            \"text\": 20971520,\n            \"lib\": 0,\n            \"data\": 1096290304,\n            \"dirty\": 0,\n            \"uss\": 15200256,\n            \"pss\": 15209472,\n            \"swap\": 0\n        },\n        \"ppid\": 8820,\n        \"gids\": {\n            \"real\": 32264,\n            \"effetive\": 32264,\n            \"saved\": 32264\n        },\n        \"cpu_affinity\": [\n            0,\n            1,\n            2,\n            3,\n            4,\n            5,\n            6,\n            7,\n            8,\n            9,\n            10,\n            11,\n            12,\n            13,\n            14,\n            15,\n            16,\n            17,\n            18,\n            19,\n            20,\n            21,\n            22,\n            23,\n            24,\n            25,\n            26,\n            27,\n            28,\n            29,\n            30,\n            31,\n            32,\n            33,\n            34,\n            35,\n            36,\n            37,\n            38,\n            39,\n            40,\n            41,\n            42,\n            43,\n            44,\n            45,\n            46,\n            47\n        ],\n        \"exe\": \"/usr/bin/singularity\",\n        \"memory_percent\": 0.014147475124228658,\n        \"io_counters\": {\n            \"read_count\": 82,\n            \"write_count\": 17,\n            \"read_bytes\": 8192,\n            \"write_bytes\": 0,\n            \"read_chars\": 746639,\n            \"write_chars\": 4536\n        },\n        \"nice\": 0,\n        \"ionice\": {\n            \"ioclass\": \"IOPRIO_CLASS_NONE\",\n            \"value\": 4\n        },\n        \"num_fds\": 6,\n        \"cpu_times\": {\n            \"user\": 0.05,\n            \"system\": 0.01,\n            \"children_user\": 0.0,\n            \"children_system\": 0.0\n        },\n        \"name\": \"singularity\",\n        \"status\": \"sleeping\",\n        \"uids\": {\n            \"real\": 9182,\n            \"effetive\": 9182,\n            \"saved\": 9182\n        },\n        \"cmdline\": [\n            \"singularity\",\n            \"pull\",\n            \"--force\",\n            \"docker://busybox\"\n        ],\n        \"create_time\": 1558192752.86,\n        \"num_threads\": 23,\n        \"username\": \"vsochat\",\n        \"open_files\": 0,\n        \"cpu_num\": 16,\n        \"NPROC\": \"48\",\n        \"HOSTNAME\": \"sh-ln03.stanford.edu\",\n        \"SECONDS\": \"1\"\n    },\n    {\n        \"num_ctx_switches\": {\n            \"voluntary\": 100,\n            \"involuntary\": 1\n        },\n        \"cpu_percent\": 0.0,\n        \"connections\": [\n            [\n                5,\n                2,\n                1,\n                [\n                    \"171.66.97.103\",\n                    53822\n                ],\n                [\n                    \"34.201.196.144\",\n                    443\n                ],\n                \"ESTABLISHED\"\n            ]\n        ],\n        \"cwd\": \"/scratch/users/vsochat\",\n        \"pid\": 8823,\n        \"terminal\": \"/dev/pts/24\",\n        \"memory_full_info\": {\n            \"rss\": 14348288,\n            \"vms\": 1146597376,\n            \"shared\": 7503872,\n            \"text\": 20971520,\n            \"lib\": 0,\n            \"data\": 1113337856,\n            \"dirty\": 0,\n            \"uss\": 15675392,\n            \"pss\": 15684608,\n            \"swap\": 0\n        },\n        \"ppid\": 8820,\n        \"gids\": {\n            \"real\": 32264,\n            \"effetive\": 32264,\n            \"saved\": 32264\n        },\n        \"cpu_affinity\": [\n            0,\n            1,\n            2,\n            3,\n            4,\n            5,\n            6,\n            7,\n            8,\n            9,\n            10,\n            11,\n            12,\n            13,\n            14,\n            15,\n            16,\n            17,\n            18,\n            19,\n            20,\n            21,\n            22,\n            23,\n            24,\n            25,\n            26,\n            27,\n            28,\n            29,\n            30,\n            31,\n            32,\n            33,\n            34,\n            35,\n            36,\n            37,\n            38,\n            39,\n            40,\n            41,\n            42,\n            43,\n            44,\n            45,\n            46,\n            47\n        ],\n        \"exe\": \"/usr/bin/singularity\",\n        \"memory_percent\": 0.014414952111743162,\n        \"io_counters\": {\n            \"read_count\": 118,\n            \"write_count\": 36,\n            \"read_bytes\": 8192,\n            \"write_bytes\": 0,\n            \"read_chars\": 776208,\n            \"write_chars\": 11512\n        },\n        \"nice\": 0,\n        \"ionice\": {\n            \"ioclass\": \"IOPRIO_CLASS_NONE\",\n            \"value\": 4\n        },\n        \"num_fds\": 6,\n        \"cpu_times\": {\n            \"user\": 0.06,\n            \"system\": 0.02,\n            \"children_user\": 0.0,\n            \"children_system\": 0.0\n        },\n        \"name\": \"singularity\",\n        \"status\": \"sleeping\",\n        \"uids\": {\n            \"real\": 9182,\n            \"effetive\": 9182,\n            \"saved\": 9182\n        },\n        \"cmdline\": [\n            \"singularity\",\n            \"pull\",\n            \"--force\",\n            \"docker://busybox\"\n        ],\n        \"create_time\": 1558192752.86,\n        \"num_threads\": 25,\n        \"username\": \"vsochat\",\n        \"open_files\": 0,\n        \"cpu_num\": 16,\n        \"NPROC\": \"48\",\n        \"HOSTNAME\": \"sh-ln03.stanford.edu\",\n        \"SECONDS\": \"1\"\n    }\n]"
+        {
+            "num_ctx_switches": {
+                "voluntary": 100,
+                "involuntary": 1
+            },
+            "cpu_percent": 0.0,
+            "connections": [
+                [
+                    5,
+                    2,
+                    1,
+                    [
+                        "171.66.97.103",
+                        53808
+                    ],
+                    [
+                        "34.201.196.144",
+                        443
+                    ],
+                    "SYN_SENT"
+                ]
+            ],
+            "cwd": "/scratch/users/vsochat",
+            "pid": 8823,
+            "terminal": "/dev/pts/24",
+            "memory_full_info": {
+                "rss": 12009472,
+                "vms": 498589696,
+                "shared": 6705152,
+                "text": 20971520,
+                "lib": 0,
+                "data": 465330176,
+                "dirty": 0,
+                "uss": 11980800,
+                "pss": 11988992,
+                "swap": 0
+            },
+            "ppid": 8820,
+            "gids": {
+                "real": 32264,
+                "effetive": 32264,
+                "saved": 32264
+            },
+            "cpu_affinity": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+            ],
+            "exe": "/usr/bin/singularity",
+            "memory_percent": 0.012065269652192677,
+            "io_counters": {
+                "read_count": 24,
+                "write_count": 1,
+                "read_bytes": 0,
+                "write_bytes": 0,
+                "read_chars": 20128,
+                "write_chars": 36
+            },
+            "nice": 0,
+            "ionice": {
+                "ioclass": "IOPRIO_CLASS_NONE",
+                "value": 4
+            },
+            "num_fds": 6,
+            "cpu_times": {
+                "user": 0.0,
+                "system": 0.01,
+                "children_user": 0.0,
+                "children_system": 0.0
+            },
+            "name": "singularity",
+            "status": "sleeping",
+            "uids": {
+                "real": 9182,
+                "effetive": 9182,
+                "saved": 9182
+            },
+            "cmdline": [
+                "singularity",
+                "pull",
+                "--force",
+                "docker://busybox"
+            ],
+            "create_time": 1558192752.86,
+            "num_threads": 12,
+            "username": "vsochat",
+            "open_files": 0,
+            "cpu_num": 16,
+            "NPROC": "48",
+            "HOSTNAME": "sh-ln03.stanford.edu",
+            "SECONDS": "1"
+        },
+        {
+            "num_ctx_switches": {
+                "voluntary": 100,
+                "involuntary": 1
+            },
+            "cpu_percent": 0.0,
+            "connections": [
+                [
+                    5,
+                    2,
+                    1,
+                    [
+                        "171.66.97.103",
+                        53814
+                    ],
+                    [
+                        "34.201.196.144",
+                        443
+                    ],
+                    "ESTABLISHED"
+                ]
+            ],
+            "cwd": "/scratch/users/vsochat",
+            "pid": 8823,
+            "terminal": "/dev/pts/24",
+            "memory_full_info": {
+                "rss": 14082048,
+                "vms": 1129549824,
+                "shared": 7385088,
+                "text": 20971520,
+                "lib": 0,
+                "data": 1096290304,
+                "dirty": 0,
+                "uss": 15200256,
+                "pss": 15209472,
+                "swap": 0
+            },
+            "ppid": 8820,
+            "gids": {
+                "real": 32264,
+                "effetive": 32264,
+                "saved": 32264
+            },
+            "cpu_affinity": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+            ],
+            "exe": "/usr/bin/singularity",
+            "memory_percent": 0.014147475124228658,
+            "io_counters": {
+                "read_count": 82,
+                "write_count": 17,
+                "read_bytes": 8192,
+                "write_bytes": 0,
+                "read_chars": 746639,
+                "write_chars": 4536
+            },
+            "nice": 0,
+            "ionice": {
+                "ioclass": "IOPRIO_CLASS_NONE",
+                "value": 4
+            },
+            "num_fds": 6,
+            "cpu_times": {
+                "user": 0.05,
+                "system": 0.01,
+                "children_user": 0.0,
+                "children_system": 0.0
+            },
+            "name": "singularity",
+            "status": "sleeping",
+            "uids": {
+                "real": 9182,
+                "effetive": 9182,
+                "saved": 9182
+            },
+            "cmdline": [
+                "singularity",
+                "pull",
+                "--force",
+                "docker://busybox"
+            ],
+            "create_time": 1558192752.86,
+            "num_threads": 23,
+            "username": "vsochat",
+            "open_files": 0,
+            "cpu_num": 16,
+            "NPROC": "48",
+            "HOSTNAME": "sh-ln03.stanford.edu",
+            "SECONDS": "1"
+        },
+        {
+            "num_ctx_switches": {
+                "voluntary": 100,
+                "involuntary": 1
+            },
+            "cpu_percent": 0.0,
+            "connections": [
+                [
+                    5,
+                    2,
+                    1,
+                    [
+                        "171.66.97.103",
+                        53822
+                    ],
+                    [
+                        "34.201.196.144",
+                        443
+                    ],
+                    "ESTABLISHED"
+                ]
+            ],
+            "cwd": "/scratch/users/vsochat",
+            "pid": 8823,
+            "terminal": "/dev/pts/24",
+            "memory_full_info": {
+                "rss": 14348288,
+                "vms": 1146597376,
+                "shared": 7503872,
+                "text": 20971520,
+                "lib": 0,
+                "data": 1113337856,
+                "dirty": 0,
+                "uss": 15675392,
+                "pss": 15684608,
+                "swap": 0
+            },
+            "ppid": 8820,
+            "gids": {
+                "real": 32264,
+                "effetive": 32264,
+                "saved": 32264
+            },
+            "cpu_affinity": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+            ],
+            "exe": "/usr/bin/singularity",
+            "memory_percent": 0.014414952111743162,
+            "io_counters": {
+                "read_count": 118,
+                "write_count": 36,
+                "read_bytes": 8192,
+                "write_bytes": 0,
+                "read_chars": 776208,
+                "write_chars": 11512
+            },
+            "nice": 0,
+            "ionice": {
+                "ioclass": "IOPRIO_CLASS_NONE",
+                "value": 4
+            },
+            "num_fds": 6,
+            "cpu_times": {
+                "user": 0.06,
+                "system": 0.02,
+                "children_user": 0.0,
+                "children_system": 0.0
+            },
+            "name": "singularity",
+            "status": "sleeping",
+            "uids": {
+                "real": 9182,
+                "effetive": 9182,
+                "saved": 9182
+            },
+            "cmdline": [
+                "singularity",
+                "pull",
+                "--force",
+                "docker://busybox"
+            ],
+            "create_time": 1558192752.86,
+            "num_threads": 25,
+            "username": "vsochat",
+            "open_files": 0,
+            "cpu_num": 16,
+            "NPROC": "48",
+            "HOSTNAME": "sh-ln03.stanford.edu",
+            "SECONDS": "1"
+        }
     ]
 }
